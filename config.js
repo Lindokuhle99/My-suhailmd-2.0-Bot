@@ -85,13 +85,13 @@ module.exports = {
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "yepeTQaFk7r9ymusihgXYvdN",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "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",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
